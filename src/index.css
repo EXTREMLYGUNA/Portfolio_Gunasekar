@@ -1,0 +1,195 @@
+.Rose{
+  display: inline-flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.Guna{
+  display:inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: 2px solid rgb(252, 6, 47);
+  margin: -1520px 0px 100px 10px;
+  border: 5px solid rgb(151, 26, 76);
+}
+.Name{
+  display: inline;
+  position:absolute;
+  margin: -820px 5px 5px -5px;
+  color: black;
+  background-color: rgb(151, 26, 76);
+  border-radius: 20px;
+  padding: 8px 10px 5px 8px;
+}
+.Cover{
+  display:flex;
+  top: 0;
+  margin-top: -250px;
+  margin-left: 30px;
+}
+.Resume{
+  position:absolute;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(56, 42, 165);
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+  color: rgb(18, 17, 17);
+  background-image: linear-gradient(to right,red,blue);
+  box-shadow: inset 8px -5px 15px 5px rgb(61, 10, 0),
+              inset -8px 5px 15px 5px rgb(4, 13, 119);
+  margin-top: -700px;
+  margin-left: 40px;          
+}
+.Resume:hover{
+  color: rgb(246, 248, 246);
+}
+.Resume:active{
+  transform: translateY(3px);
+}
+.Education{
+  display: inline-block;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  color: black;
+  border-radius: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 10px 0px 10px 20px;
+  font-size: 30px;
+  margin: -600px 0px 0px 40px;
+  background-image: linear-gradient(to right,red,blue);
+  box-shadow: inset 8px -5px 15px 5px rgb(61, 10, 0),
+              inset -8px 5px 15px 5px rgb(4, 13, 119);
+}
+.Education:hover{
+  color: aliceblue;
+}
+hr{
+  color: rgb(10, 10, 10);
+}
+.List{
+  text-decoration: none;
+  color: black;
+}
+.List:hover{
+  color: aliceblue;
+}
+.List:active{
+  transform: translateY(5px);
+}
+ul >li{
+  list-style-type:"➤";
+}
+.Projects{
+  display: inline-block;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  color: black;
+  border-radius: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 10px 0px 10px 20px;
+  font-size: 30px;
+  margin: -275px 0px 0px 40px;
+  background-image: linear-gradient(to right,red,blue);
+  box-shadow: inset 8px -5px 15px 5px rgb(61, 10, 0),
+              inset -8px 5px 15px 5px rgb(4, 13, 119);
+}
+.Projects:hover{
+  color: aliceblue;
+}
+hr{
+  color: rgb(10, 10, 10);
+}
+.List{
+  text-decoration: none;
+  color: black;
+}
+.List:hover{
+  color: aliceblue;
+}
+.List:active{
+  transform: translateY(5px);
+}
+ul >li{
+  list-style-type:"➤";
+}
+.loader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 12.8rem;
+  margin-top: -49rem;
+  margin-left: -1.4rem;
+  margin-bottom: 3rem;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  animation: pulsOut 1s ease-in-out infinite;
+  filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.75));
+}
+.loader:before {
+  width: 100%;
+  padding-bottom: 100%;
+  box-shadow: inset 0 0 0 1rem #fff;
+  animation-name: pulsIn;
+}
+.loader:after {
+  width: calc(100% - 2rem);
+  padding-bottom: calc(100% - 2rem);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+@keyframes pulsIn {
+  0% {
+    box-shadow: inset 0 0 0 1rem #fff;
+    opacity: 1;
+  }
+  50%, 100% {
+    box-shadow: inset 0 0 0 0 #fff;
+    opacity: 0;
+  }
+}
+
+@keyframes pulsOut {
+  0%, 50% {
+    box-shadow: 0 0 0 0 #fff;
+    opacity: 0;
+  }
+  100% {
+    box-shadow: 0 0 0 1rem #fff;
+    opacity: 1;
+  }
+}
+    
+.blank{
+  display:inline-block;
+  position:absolute;
+  font-size: 40px;
+  height: 120vh;
+  width: 64vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+  color: rgb(18, 17, 17);
+  background-image: linear-gradient(to right,red,blue);
+  box-shadow: inset 8px -5px 15px 5px rgb(61, 10, 0),
+              inset -8px 5px 15px 5px rgb(4, 13, 119);
+  margin-top: -950px;
+  margin-left: 650px;
+}
