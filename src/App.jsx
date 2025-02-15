@@ -12,7 +12,6 @@ function App() {
   <Routes>
     <Route path='/' element={<Cards/>} />
     <Route path='/blank' element={<Blank />}/>
-    
     <Route path = "*" element = {<h1 style={{color:"black",margin:"100px 0px 0px 500px"}} >404 page not found <sub style={{color:"red"}}>Wroung router...</sub></h1>}/>
   </Routes>
   </BrowserRouter>
