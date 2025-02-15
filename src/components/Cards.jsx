@@ -12,7 +12,7 @@ function Cards() {
   </Link>
   </div>
   <div>
-    <Link title='Resume' to='/src/assets/Gunasekar.V.pdf' target='_blank' className='Resume'>Check Resume</Link>
+    <Link title='Resume' to='/blank' target='_blank' className='Resume'>Check Resume</Link>
   </div>
   <div className='Education'>
     Educational details :<hr/>
@@ -39,10 +39,7 @@ function Cards() {
     </div>
     <span className="loader"></span>
   </div>
-  {/* <div className='blank'>
-      Projection Here
-      <hr/>
-    </div> */}
+ 
     </>
   )
 }
