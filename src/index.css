@@ -195,14 +195,15 @@ ul >li{
 }
 
 .online{
-  font-family: fantasy;
   display: inline-flex;
-  margin:300px 0px 0px 400px;
+  margin:200px 0px 0px 50px;
   text-decoration: none;
   border: 5px solid black;
   padding:10px 10px 10px 10px;
   color: rgb(147, 140, 140);
-  height: 140px;
+  height: 800px;
+  width: 650px;
+  justify-content: center;
 }
 .online:hover{
   cursor:pointer;
