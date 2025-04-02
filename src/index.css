@@ -1,8 +1,8 @@
 .Rose{
-  display: inline-flex;
+  display: inline-block;
   position: relative;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 .Guna{
   display:inline-block;
@@ -89,7 +89,7 @@ ul >li{
 .Projects{
   display: inline-block;
   position: absolute;
-  height: 375px;
+  height: 460px;
   width: 600px;
   color: black;
   border-radius: 15px;
@@ -128,7 +128,7 @@ ul >li{
   justify-content: center;
   width: 100%;
   max-width: 12.8rem;
-  margin-top: -57.5rem;
+  margin-top: -62.8rem;
   margin-left: -1.4rem;
   margin-bottom: 3rem;
 }
@@ -210,4 +210,14 @@ ul >li{
 }
 .online:active{
   color: blue;
+}
+.college{
+  display: flex;
+  position: absolute;
+}
+
+@media screen and (min-width:100px) {
+  .overall{
+    display: block;
+  }
 }

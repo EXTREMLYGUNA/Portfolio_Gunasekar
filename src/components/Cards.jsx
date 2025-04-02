@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 function Cards() {
   return (
     <>
+    <div className='overall'>
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlMbpxJChYQE67pVHcjkl2v9dTdOADDh4n4qFTfvV-3bx2p4WT_NLjg5_h6khHu6vmYyT1DK4GTGRJvFK6a4xZnOBnYZgFRmbts_Zk8vKmCmv2keEbiC4C82blDqJro3NjI3nL9UCfFFYEppXhTOI_51NsBVWqZd8I2uFCC-8E89figTSVFDTKevAbkiI/w320-h200/Colorful-Rose.jpg" alt="Colorful-Rose" className="Rose"/>
   <div className='Cover'>
   <Link to='/' target='_self' title={"Name : GUNASEKAR"} className='Detail'>
@@ -12,7 +13,7 @@ function Cards() {
   </Link>
   </div>
   <div>
-    <Link title='Resume' to='/blank' target='_blank' className='Resume'>Check Resume</Link>
+    <Link title='Resume' to='https://gunasekar-resume.netlify.app' target='_blank' className='Resume'>Check Resume</Link>
   </div>
   <div className='Education'>
     Educational details :<hr/>
@@ -29,6 +30,7 @@ function Cards() {
     Projects :<hr/>
     <div>
      <ul>
+     <li><Link to='https://college-placement-recruitment.netlify.app'             target='_blank' className='List' value='college_placement'   type='submit' >College_placement_system </Link> ⇨<Link to='/blank'         target='_blank' className='List' value='Callback'     name='list' type='submit' >View code  </Link></li>
       <li><Link to='https://guna-callback.netlify.app'             target='_blank' className='List' value='Callback'   type='submit' >Callback function </Link> ⇨<Link to='https://github.com/GunasekarRanjitham/CALL-BACK-HELL'         target='_blank' className='List' value='Callback'     name='list' type='submit' >View code  </Link></li>
       <li><Link to='https://price-cards-projects.netlify.app'      target='_blank' className='List' value='Price-card' type='submit' >Price-card        </Link> ⇨<Link to='https://github.com/GunasekarRanjitham/Price-cards'            target='_blank' className='List' value='Price-card'   name='list' type='submit' >View code  </Link></li>
       <li><Link to='https://shopping-card-projects.netlify.app'    target='_blank' className='List' value='Callback'   type='submit' >Shopping-card     </Link> ⇨<Link to='https://github.com/GunasekarRanjitham/Shopping-card'          target='_blank' className='List' value='Callback'     name='list' type='submit' >View code  </Link></li>
@@ -39,7 +41,7 @@ function Cards() {
     </div>
     <span className="loader"></span>
   </div>
- 
+  </div>
     </>
   )
 }
